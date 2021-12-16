@@ -1,0 +1,14 @@
+{
+  "fullName" : "Гвоздев Егор Геннадиевич",
+  "dateOfBirth" : "23.12.1992",
+  "phone" : "380993257069",
+  "adress" : "Днепр",
+  "dateTimeMod" : "Thu Dec 16 13:08:31 EET 2021"
+}
+{
+  "fullName" : "Зеленская Ольга Ивановна",
+  "dateOfBirth" : "08.09.1991",
+  "phone" : "3809924565543",
+  "adress" : "Днепр",
+  "dateTimeMod" : "Thu Dec 16 13:09:15 EET 2021"
+}
