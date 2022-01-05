@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="app_main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="375.0" style="-fx-background-color: #061230df;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gvozdev.clientchat.ClientController">
+    <AnchorPane prefHeight="60.0" prefWidth="375.0">
+        <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="14.0" layoutY="11.0">
+            <Image url="@assets/kisspng-user-profile-computer-icons-account-5ae032be117818.8231660815246424940716.png" />
+        </ImageView>
+    </AnchorPane>
+    <TextField fx:id="text_message" layoutX="14.0" layoutY="450.0" prefHeight="38.0" prefWidth="250.0" style="-fx-border-color: #7d7d7ddf; -fx-background-color: #6f727801; -fx-border-radius: 25px; -fx-text-fill: white;" />
+    <Text fill="#949494" layoutX="19.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите Ваш текст" wrappingWidth="119.18619537353516" />
+    <Button fx:id="button_send" layoutX="279.0" layoutY="449.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="81.0" style="-fx-background-color: #22ab8be4;" text="Отправить" textFill="WHITE" />
+    <ScrollPane fx:id="scroll_pane" layoutX="1.0" layoutY="60.0" prefHeight="354.0" prefWidth="373.0" style="-fx-border-color: transparent;">
+        <content>
+            <VBox id="v_box" fx:id="v_box" prefHeight="348.0" prefWidth="368.0" style="-fx-background-color: transparent;" />
+        </content>
+    </ScrollPane>
+</AnchorPane>
